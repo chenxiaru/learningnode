@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-08-07 23:50:31
- * @LastEditTime: 2019-08-16 16:22:37
+ * @LastEditTime: 2019-08-17 23:46:31
  * @LastEditors: Please set LastEditors
  */
 // 引入 http 模块
@@ -29,5 +29,5 @@ function serve (request, response) {
 let server = http.createServer(serve) 
 
 // 监听
-server.listen(8000, '10.187.60.56')
+server.listen(8000, 'localhost')
 
